@@ -1,7 +1,7 @@
 package module4;
 
 /**
- * @author
+ * @author Olga
  *
  */
 public class CalculatorClient {
@@ -27,7 +27,14 @@ public class CalculatorClient {
 		int[] mul = {2, 3, 4};
 		result = normalCalc.multiply(mul);
 		System.out.println("2) Multiplication result is " + result); 
-		
+
+        //Substract
+        result = normalCalc.subtract(4, 5);
+        System.out.println("3) Subtraction result is " + result);
+
+        //Division
+        result = normalCalc.divide(4, 5);
+        System.out.println("3) Division result is " + result);
 
 	}
 
